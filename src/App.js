@@ -14,6 +14,7 @@ function App() {
       .get(call)
       .then((res) => {
         setCoins(res.data);
+        console.log("this is the res: ");
         console.log(res.data);
       })
       .catch((error) => console.log(error));
