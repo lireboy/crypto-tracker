@@ -5,8 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("background-image.png");
+  background-image: url("background-image.jpg");
   background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
   max-height: 100%;
 }
